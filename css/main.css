@@ -242,6 +242,10 @@ body {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
   padding-bottom: 50px;
 }
+.menu_list_pancake {
+  display: grid;
+  grid-template-columns: repeat(1 , 1fr );
+}
 
 .menu_item {
   width: 49%;
@@ -249,6 +253,10 @@ body {
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
+}
+.menu_item_pancake {
+  width: 100%;
+
 }
 .menu_item_content {
   width: 45%;
